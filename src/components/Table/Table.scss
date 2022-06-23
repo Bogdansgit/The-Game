@@ -1,0 +1,50 @@
+.table {
+	background-color: grey;
+	border-radius: 20px;
+}
+
+.screen {
+	height: 80vh;
+	background-color: antiquewhite;
+	border: 10px solid grey;
+	border-radius: 20px;
+}
+
+.control {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 350px;
+	margin: 0 auto;
+	max-width: 70%;
+	height: 20vh;
+}
+
+.item1 {
+	display: flex;
+	gap: 150px;
+}
+
+.item2 {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	gap: 70px;
+}
+
+.count {
+	width: 70px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	font-weight: 700;
+	background-color: white;
+}
+
+.error {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: end;
+	font-size: 35px;
+}

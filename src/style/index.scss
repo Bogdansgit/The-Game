@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	width: 500px;
+	padding: 20px 10px;
+	background-color: aqua;
+	border-radius: 10px;
+	font-size: 26px;
+	font-weight: 900;
+	letter-spacing: 10px;
+	cursor: pointer;
+}
+
+.btn-secondary {
+	width: 100px;
+	background-color: palevioletred;
+}
